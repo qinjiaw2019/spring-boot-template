@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=jcstool-web-1.1.jar -DgroupId=com.jcstool -DartifactId=jcstool-web -Dversion=1.1 -Dpackaging=jar 

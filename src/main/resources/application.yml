@@ -1,0 +1,48 @@
+server:
+  port: 1705
+  max-http-header-size: 1048576
+  tomcat:
+    max-connections: 3000
+    max-http-post-size: 1048576
+    max-threads: 1000
+    basedir: logistics/uploads
+
+#durid数据库连接池设置
+spring:
+  profiles:
+    # 这个属性就是区分具体加载的什么环境的配置文件，如application-pro.yml
+    active: localhost
+  resources:
+    static-locations: classpath:static/,file:static/
+  datasource:
+    db:
+      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      # spring2.0此处为jdbc-url
+      jdbc-url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&serverTimezone=GMT
+      type: com.alibaba.druid.pool.DruidDataSource
+#    jta:
+#      atomikos:
+#        properties:
+#          log-base-dir: ../logs
+#          enable-loggin: false
+#      transaction-manager-id: txManager
+
+
+# 打印sql
+logging:
+  level:
+    com.wyc: debug
+  file: ./log/log
+
+api:
+  # 图片服务器 http://localhost:1702/static/upload/
+  pic: /uploads/
+
+# 资源配置
+resources:
+  # 上传资源配置
+  upload:
+    # 允许上传的文件格式
+    suffix: .jpg,.png,.jpeg,.bmg

@@ -1,0 +1,53 @@
+server:
+  port: 1701
+  max-http-header-size: 1048576
+  tomcat:
+    max-connections: 3000
+    max-http-post-size: 1048576
+    max-threads: 1000
+    basedir: logistics/uploads
+
+#durid数据库连接池设置
+spring:
+  resources:
+    static-locations: classpath:static/,file:static/
+  datasource:
+    pdwlj:
+      driverClassName: com.mysql.jdbc.Driver
+      username: pdwlj
+      password: 312Sjksh#!@
+      # spring2.0此处为jdbc-url
+      jdbc-url: jdbc:mysql://10.242.181.48:13306/pdwlj?characterEncoding=utf-8&serverTimezone=GMT
+      type: com.alibaba.druid.pool.DruidDataSource
+    pdxcb:
+      driverClassName: com.mysql.jdbc.Driver
+      username: pdcy_dev
+      password: Sjksh123!@#
+      # spring2.0此处为jdbc-url
+      jdbc-url: jdbc:mysql://180.167.126.3:8082/pdxcb?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      type: com.alibaba.druid.pool.DruidDataSource
+#    jta:
+#      atomikos:
+#        properties:
+#          log-base-dir: ../logs
+#          enable-loggin: false
+#      transaction-manager-id: txManager
+
+
+# 打印sql
+logging:
+  level:
+    com.wyc: debug
+  file: ./log/log
+
+# 资源配置
+resources:
+  # 上传资源配置
+  upload:
+    # 允许上传的文件格式
+    suffix: .jpg,.png,.jpeg,.bmg
+
+api:
+  # 图片服务器 http://localhost:1702/static/upload/
+  pic: /static/upload/
+
