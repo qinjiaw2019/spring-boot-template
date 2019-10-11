@@ -1,6 +1,16 @@
-# springboot 常规项目模板
-架构:sprigboot2.0.5.Relase+mybatis+通用mapper+druid
 
+spring-boot-template
+-------
+
+## 背景介绍
+由于公司很主要基于springboot+多数据源的场景,所以做了一个模板,集成了仓用的web功能.加快开发速度而形成的一个常用的模板.
+
+## Features
+* 基于Springboot
+* 基于Mybatis和通用Mapper
+* 基于Druid数据源连接池
+* 集成RestFull接口的常用工具(参数处理,ResponseBean)
+* 支持多数据源
 
 源码结构
 ```text
