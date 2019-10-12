@@ -12,6 +12,16 @@ spring-boot-template
 * 集成RestFull接口的常用工具(参数处理,ResponseBean)
 * 支持多数据源
 
+## 配置
+```text
+jcstool:        
+  # 数据目录 baseDir/web 为html页面
+  baseDir: D:\main\qinjiawang\project\wyc-nltp\wyc-nltp-fe
+  # 静态资源路径
+  publicDir: D:\main\qinjiawang\project\wyc-nltp\wyc-nltp-fe\public
+```
+
+
 源码结构
 ```text
 |--base 基础包
