@@ -23,8 +23,8 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/user")
-public class UserController extends BaseController {
+@RequestMapping("/api/")
+public class LoginController extends BaseController {
 
     @Autowired
     UserService userService;
@@ -33,7 +33,7 @@ public class UserController extends BaseController {
      * 获取当前登录用户信息
      * @return
      */
-    @GetMapping("/currentUser")
+    @RequestMapping("/currentUser")
     public R getCurrentUser(){
         WebUser user = getUser();
         return user == null ?
