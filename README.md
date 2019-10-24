@@ -41,3 +41,6 @@ jcstool:
 |--util 工具包
 |--vo
 ```
+# 说明
+jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&serverTimezone=GMT&useSSL=false
+serverTimezone UTC或者GMT(相差8个小时)，是因为时区的问题。将其改为CTT（Asia&Shanghai）
