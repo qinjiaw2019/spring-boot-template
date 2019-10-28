@@ -60,3 +60,6 @@ jcstool:
 
   # 静态资源路径
   publicDir: D:\main\qinjiawang\project\wyc-nltp\wyc-nltp-fe\public
+
+  # 静态html首页,完全前后端分离只能采用该方式
+  indexHtml: /index.html
