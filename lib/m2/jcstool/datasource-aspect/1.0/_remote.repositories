@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 19 15:26:22 CST 2019
+datasource-aspect-1.0.jar>=
+datasource-aspect-1.0.pom>=

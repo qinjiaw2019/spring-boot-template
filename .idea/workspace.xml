@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0fc4d6a-53bd-4bd6-8a5b-910aef35a7b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jcstool/base/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-localhost.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-localhost.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +133,7 @@
       <workItem from="1570584040151" duration="6563000" />
       <workItem from="1570591294638" duration="940000" />
       <workItem from="1570787909456" duration="1285000" />
-      <workItem from="1572228296273" duration="166000" />
+      <workItem from="1572228296273" duration="729000" />
     </task>
     <servers />
   </component>

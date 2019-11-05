@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 29 14:10:31 CST 2019
+spring-boot-template-1.0.jar>=
+spring-boot-template-1.0.pom>=

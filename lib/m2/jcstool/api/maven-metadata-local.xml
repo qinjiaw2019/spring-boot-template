@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>api-doc</name>
+      <prefix>api-doc</prefix>
+      <artifactId>api-doc</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
